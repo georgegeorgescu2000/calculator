@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> 
+
+    <h1 id="title">Calculator</h1>
+    <input type="button" id="title2" value="0">
+</head>
+<body>
+    <div class='container' id = "container">
+        <div class = 'screen' id = "screen">0
+            
+        </div>
+        <div class = 'buttons1' id = "ac">
+            <button onclick="getElementById('screen').innerHTML = 
+            aC()
+            " class = 'buttons1'>AC</button> 
+        </div>
+
+        <div class = 'buttons1' id = "plus" >
+            <button onclick="getElementById('screen').innerHTML = 
+            plusMinus()
+             
+             " class = 'buttons1'>+/-</button> 
+            
+        </div>
+        <div class = 'buttons1' id = "procent">
+            <button onclick="getElementById('screen').innerHTML = 
+           procent()
+            
+            " class = 'buttons1'>%</button> 
+        </div>
+        <div class = 'buttons1' id = "divided">
+            <button onclick="getElementById('screen').innerHTML = 
+            calc(getElementById('screen').innerHTML,'/')
+            " class = 'buttons1'>/</button> 
+        </div>
+        <div class = 'numbers' id = "seven">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(7)" class = 'numbers'>7</button> 
+        </div>
+        <div class = 'numbers' id = "eight">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(8)" class = 'numbers'>8</button> 
+        </div>
+        <div class = 'numbers' id = "nine">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(9)" class = 'numbers'>9</button> 
+        </div>
+        <div class = 'numbers' id = "multiply">
+            <button onclick="getElementById('screen').innerHTML = 
+            calc(getElementById('screen').innerHTML,'*')
+            " class = 'numbers'>*</button> 
+        </div>
+        <div class = 'numbers' id = "four">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(4)" class = 'numbers'>4</button> 
+        </div>
+        <div class = 'numbers' id = "five">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(5)" class = 'numbers'>5</button> 
+        </div>
+        <div class = 'numbers' id = "six">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(6)" class = 'numbers'>6</button> 
+        </div>
+        <div class = 'numbers' id = "minus">
+            <button onclick="getElementById('screen').innerHTML = 
+            
+            calc(getElementById('screen').innerHTML,'-')
+            " 
+            class = 'numbers'>-</button> 
+        </div>
+        <div class = 'numbers' id = "one">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(1)" class = 'numbers'>1</button> 
+        </div>
+        <div class = 'numbers' id = "two">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(2)" class = 'numbers'>2</button> 
+        </div>
+        <div class = 'numbers' id = "three">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(3)" class = 'numbers'>3</button> 
+        </div>
+        <div class = 'numbers' id = "add">
+            <button onclick="getElementById('screen').innerHTML = 
+            calc(getElementById('screen').innerHTML,'+')
+            " 
+            class = "numbers">+</button> 
+        </div>
+        <div class = 'numbers0' id = "zero">
+            <button onclick="getElementById('screen').innerHTML = 
+            typeScreen(0)" class = 'numbers0'>0</button> 
+        </div>
+        <div class = 'numbers' id = "dot">
+            <button onclick="getElementById('screen').innerHTML = 
+            dot()
+            " class = 'numbers'>.</button> 
+
+        </div>
+        <div class = 'numbers' id = "equal">
+            <button onclick="getElementById('screen').innerHTML = 
+            equal(getElementById('screen').innerHTML)
+            " class = 'numbers'>=</button> 
+        </div>
+        
+    </div>
+
+    
+</body>
+
+
+</html> 
